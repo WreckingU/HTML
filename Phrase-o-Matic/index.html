@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Phrase-o-Matic</title>
+        
+        <!-- Inline CSS -->
+        <style>
+			body
+			{
+				font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+				
+				background-color: white;
+			}
+		</style>
+        
+        <script>
+        	function makePhrases()
+			{
+				var words1 = ["swag", "bro", "subway", "coolio", "WOW"];
+				var words2 = ["kid", "dog", "cat", "iguana", "puppy"];
+				var words3 = ["processor", "GPU", "Network Card", "RJ-45 Jack", "Windows 10", "Google"];
+				var rand1 = Math.floor(Math.random() * words1.length);
+				var rand2 = Math.floor(Math.random() * words2.length);
+				var rand3 = Math.floor(Math.random() * words3.length);
+				
+				var phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
+				var phraseElement = document.getElementById("phrase");
+				phraseElement.innerHTML = phrase; 
+			}
+			window.onload = makePhrases;
+        
+        </script>
+    </head>
+    
+    <body>
+    	<h1>Phrase-o-Matic says:</h1>
+        <p id="phrase"></p>
+    
+    
+    </body>
+</html>

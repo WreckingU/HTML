@@ -1,0 +1,221 @@
+  /*
+    Color scheme:
+    #000000 - Black (Background)
+	#909090 - Gray(Headers)
+	#808080 - Darkish Gray(Paragraph Text)
+  */
+
+  
+    div { 
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+  } 
+
+  body {
+    color: black;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-family: Arial, Arial Black;
+    text-align: left;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #4D4D4D;
+    margin: 10px !important;
+	background-color: #0C0C0C;
+   } 
+   
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: #FFD700;
+	text-align: center;
+    padding: 0;
+    border: 3px solid black;
+	border-width: 10px; 
+	border-style: outset;
+	border-color: grey;
+    margin-left: 10%;
+	margin-right: 10%;
+  }
+    h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000000; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: #FFD700;
+	text-align: center;
+    padding: 0;
+    border: 3px solid black;
+	border-width: 10px; 
+	border-style: solid;
+	border-color: grey;
+    margin-left: 10%;
+	margin-right: 10%;
+  }
+  
+    h3 {
+    font-size: 2.04em;
+    font-weight: bold;
+    color: #000000; /* Gray */
+	font-family: Arial Black;
+	background-color: #FFD700;
+	text-align: center;
+    padding: 0;
+    border: 3px solid black;
+	border-width: 10px; 
+	border-style: solid;
+	border-color: grey;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	h4 { 
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+  }
+  
+  	h5 { 
+    text-align: center;
+	border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 15%;
+	margin-right: 15%;
+  }
+	
+	
+	
+  p { 
+    background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+   }
+
+   
+	li {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+	list-style-type: square;
+    margin-left: 10%;
+	margin-right: 10%;
+	}   
+	
+	ul {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	table {
+	border-collapse: separate;
+    border-spacing: 15px 7px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	th{
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: #FFD700;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: grey;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	td{
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: grey;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: #FFD700;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	caption{
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000  ; /* Gray */
+	font-family: Arial Black;
+    text-align: center;
+	background-color: #FFD700;
+    padding: 1em;
+    border-width: 10px; 
+    border-style: solid;
+    border-color: gray;
+    margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	
+	
+	
+	
+}
